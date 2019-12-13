@@ -11,20 +11,21 @@
 <body>
     <div class="row">
         <div class="container">
-            <h4>d anime sync</h4>
-            <div class="divider"></div>
+            <h4>d sync</h4>
             <div class="input-field">
-                <textarea id="server" class="materialize-textarea"></textarea>
-                <label for="textarea1">Server</label>
+                <textarea id="server_input" class="materialize-textarea"></textarea>
+                <label for="server_input">Server</label>
             </div>
             <div class="input-field">
-                <textarea id="roomname" class="materialize-textarea"></textarea>
-                <label for="textarea1">Room Name</label>
+                <textarea id="room_name_input" class="materialize-textarea"></textarea>
+                <label for="room_name_input">Room Name</label>
             </div>
-            <a class="waves-effect waves-light btn">save</a>
+            <button type="button" id="apply_button" class="waves-effect waves-light btn">apply</button>
         </div>
     </div>
     <script src="materialize.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <script src="popup.js"></script>
 </body>
 
 </html>

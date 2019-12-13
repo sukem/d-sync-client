@@ -15,6 +15,10 @@
         "js": ["main.js"]
     }],
 
+    "permissions": [
+        "storage"
+    ],
+
     "browser_action": {
         "browser_style": false,
         "default_icon": "icon.png",
