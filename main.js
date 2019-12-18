@@ -22,7 +22,9 @@ const seekedCall = () => {
         seekedState = 'seeked';
     } else if (seekedState === 'seeking') {
         seekedState = 'seeked';
-        socket.emit('im_ready');
+        setTimeout(function() {
+            socket.emit('im_ready');
+        }, 1000);
     }
 };
 
